@@ -7,4 +7,3 @@ _date of birth: 18 June 1991_
 ## Key skills:
 * drafting contracts
 * representing clients in courts
-* legal consultations
