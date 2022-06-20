@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+}
+* {
+    box-sizing: border-box;
+  }
+.header {
+    border: 1px solid lavender;
+    background-color: lavender;
+}
+body {
+    min-height: 100vh;
+}
+body {
+    margin: 0; padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font: 16px Roboto, sans-serif;
+    color: rgb(76, 75, 75);
+    text-decoration: none;
+    transition: .5s;
+}
+.nav-link:hover {
+    color: rgb(3, 3, 82);
+    text-decoration: underline;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+    font: 18px Roboto, sans-serif;
+    color: rgb(45, 45, 45);
+    line-height: 28px;
+    border-top: 1 px solid midnightblue;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+#avatar {
+    text-align: center;
+    padding: 30px 0;
+}
+.section-title {
+    font: 20px Roboto, sans-serif;
+    letter-spacing: 5px;
+    color: midnightblue;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+#profile {
+    text-align: center;
+    padding: 70px 0;
+}
+.section-title-profile {
+    font: 24px Roboto, sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: midnightblue;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.section-title-job {
+    font: 18px Roboto, sans-serif;
+    letter-spacing: 5px;
+    color: midnightblue;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+.main-link {
+    text-decoration: none;
+    transition: .5s;
+}
+
+.mail-link:hover {
+    color: midnightblue;
+}
+.section-code {
+    font: 14px;
+    color: rgb(85, 84, 84)
+}
+.section-title:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 4px;
+    background-color: lavender;
+    position: relative;
+}
+.footer:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 4px;
+    background-color: lavender;
+    position: relative;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section-footer {
+    font: 20px Roboto, sans serif;
+}
+.section-footer {
+    margin-left: 500px;
+}
+.gitlogo {
+    margin-left: 500px;
+}
