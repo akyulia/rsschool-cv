@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+</head>
+<body>
+    <header>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                      <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                      <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </header>
+    </header>
+    <main>
+        <main class="main">
+            <div class="container">
+                <div class="main-container">
+                    <section class="section" id="avatar">
+                        <img src="./assets/img/avatar.jpg" alt="avatar" width="210" height="230">
+                    </section>
+                    <section class="section" id="profile">
+                        <h1 class="section-title-profile">Julia Akhmadieva</h1>
+                        <p class="section-title-job">Junior front-end developer</p>
+                    </section>
+                    <section class="section" id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul>
+                            <li>Location: Ufa, Russia</li>
+                            <li>Email: <a href="mailto:yu.akhmadieva@gmail.com" class="main-link">yu.akhmadieva@gmail.com</a></li>
+                            <li>Github: <a href="https://github.com/akyulia" class="main-link">akyulia</a></li>
+                            <li>Discord: <a href="https://discord.com/invite/zUr7wWYPXE" class="main-link">YuliaAk#7082</a></li>
+                        </ul>                    
+                    </section>
+                    <section class="section" id="summary">
+                        <h2 class="section-title">Summary</h2>
+                        <p>
+                            I am a tax consultant who have decided to change my work field and entered the path of learning IT science.
+                            I am interested in this sphere since it shows a constant development as well as gives the possibility to implement something new on your own and work remotely.
+                            I believe my eagerness to learn coupled with my sense of responsibility and knowledge of foreign lamguages would help me to become a good front-end developer in the future.
+                        </p>                    
+                    </section>
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul>
+                            <li>Python (beginner level)</li>
+                            <li>Git</li>
+                            <li>Photoshop</li>
+                        </ul>                    
+                    </section>
+                    <section class="section" id="code">
+                        <h2 class="section-title">Code</h2>
+                        <pre class="section-code">
+mylist = list(map(int, input().split()))
+for i in range(0, len(mylist) - 1, 2):
+     (mylist[i], mylist[i + 1]) = (mylist[i + 1], mylist[i])
+print(*mylist)
+                        </pre>
+                    </section>
+                    <section class="section" id="courses">
+                        <h2 class="section-title">Courses</h2>
+                        <ul>
+                            <li><a href="https://rs.school/" class="main-link">RS School</a>: JS/Frontend.Stage 0 (present)</li>
+                            <li><a href="https://www.coursera.org/" class="main-link">Coursera</a>: Python programming basics</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                        <p>Deloitte, Ufa - Senior Tax Consultant</p>
+                    </section>
+                    <section class="section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <ul>
+                            <li>Financial University under the Government of Russia
+                                <ul>
+                                    <li>Master of economics</li>
+                                </ul>
+                            </li>
+                            <li>University of Paris 1 Panthéon-Sorbonne
+                                <ul>
+                                    <li>Master of insurance law</li>
+                                </ul>
+                            </li>
+                            <li>Higher School of economics
+                                <ul>
+                                    <li>Lawyer</li>
+                                </ul>
+                            </li>                        
+                        </ul>
+                    </section>
+                    <section class="section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+                        <ul>
+                            <li>English - upper-intermediate (Diploma of legal interpreter assistant)</li>
+                            <li>French - upper-intermediate</li>
+                            <li>Russian - native</li>
+                            <li>Tatar - native</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>   
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <a href="https://rs.school/js/" class="rslogo"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="150" height="70"></a>
+                    <section class="section-footer"><p>2022</p></section>
+                    <a href="https://github.com/akyulia" class="gitlogo"><img src="./assets/img/images.png" alt="GitHub" width="150" height="50"></a>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
