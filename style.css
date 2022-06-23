@@ -141,5 +141,6 @@ html {
     margin-left: 500px;
 }
 .gitlogo {
-    margin-left: 500px;
+    position: relative;
+    left: 500px;
 }
